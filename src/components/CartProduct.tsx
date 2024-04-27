@@ -26,7 +26,7 @@ const CartProduct = ({item}: cartProductsProps) => {
   const dispatch = useDispatch();
   return (
     <div className='bg-gray-100 rounded-lg flex items-center gap-4'>
-      <Image className='object-cover w-full h-auto' width={150} height={150} src={item.image} alt="productImage" />
+      <Image className='object-cover' width={150} height={150} src={item.image} alt="productImage" />
       <div className='flex items-center px-2 gap-4'>
         <div className='flex flex-col gap-1'>  
           <p className='text-lg font-semibold text-amazon_blue'>{item.title}</p>
@@ -56,7 +56,7 @@ const CartProduct = ({item}: cartProductsProps) => {
                     })
                   )
                 } 
-                className='w-6 h-6 flex items-center justify-center rounded-full text-base bg-transparent hover:bg-gray-300 cursor-pointer decoration-purple-300'>
+               className='w-6 h-6 flex items-center justify-center rounded-full text-base bg-transparent hover:bg-gray-300 cursor-pointer decoration-purple-300'>
                 <LuPlus />
               </span>
               <span>{item.quantity}</span>
