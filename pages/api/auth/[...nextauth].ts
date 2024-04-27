@@ -1,3 +1,5 @@
+// pages/_app.tsx or pages/_app.js
+import 'bootstrap/dist/css/bootstrap.min.css';
 import NextAuth from "next-auth";
 import GithubProvider from "next-auth/providers/github";
 import GoogleProvider from "next-auth/providers/google";

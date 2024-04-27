@@ -6,6 +6,7 @@ import { Provider } from 'react-redux';
 import { persistor, store } from "@/src/store/Store";
 import { PersistGate } from 'redux-persist/integration/react';
 import { SessionProvider } from "next-auth/react";
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 export default function App({ Component, pageProps : { session, ...pageProps } }: AppProps) {
   return (
