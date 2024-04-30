@@ -36,7 +36,7 @@ export const nextSlice = createSlice({
             }
         },
         increaseQuantity: (state, action) => {
-            const existingProduct = state.favoriteData.find((item: StoreProduct) => item._id === action.payload._id);
+            const existingProduct = state.productData.find((item: StoreProduct) => item._id === action.payload._id);
             existingProduct && existingProduct.quantity++;
         },
         decreaseQuantity: (state, action) => {
