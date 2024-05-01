@@ -35,7 +35,7 @@ function BottomHead() {
         </p>
       </div>
       {userInfo && (
-        <button onClick={handleSignOut} className="hidden sm:inline-flex items-center h-8 px-2 border border-transparent hover:border-red-600 hover:text-red-400 text-amazon_yellow cursor-pointer duration-300">
+        <button onClick={handleSignOut} className="inline-flex items-center h-8 px-2 border border-transparent hover:border-red-600 hover:text-red-400 text-amazon_yellow cursor-pointer duration-300">
           Sign Out
         </button>
       )}
