@@ -62,7 +62,7 @@ function Header() {
         <div className="lg:hidden">
           <button
             onClick={() => setIsOpen(!isOpen)}
-            className="p-3 rounded-md text-gray-400"
+            className="p-2 rounded-md text-gray-400"
           >
             {/* Menu icon */}
             <BiCaretDown />
