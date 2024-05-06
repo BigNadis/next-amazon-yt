@@ -1,7 +1,6 @@
 import RootLayout from "@/src/components/RootLayout";
 import "@/styles/globals.css";
 import type { AppProps } from "next/app";
-import 'bootstrap/dist/css/bootstrap.min.css';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Provider } from 'react-redux';
 import { persistor, store } from "@/src/store/Store";
