@@ -59,7 +59,7 @@ function Header() {
           <Image className="w-28 object-cover" src={logo} alt="logoImg" />
         </Link>
         {/* Mobile menu button */}
-        <div className="lg:hidden">
+        <div className="d-lg-none">
           <button
             onClick={() => setIsOpen(!isOpen)}
             className="p-2 rounded-md text-gray-400"
